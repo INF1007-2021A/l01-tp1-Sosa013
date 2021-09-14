@@ -3,20 +3,36 @@ import math
 
 def resoudreEquation(a, b, c):
     # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
-    delta =
+    a = 2
+    b = 9
+    c = 9
+
+    delta = ((b**2) - (4*a*c))
+
+    delta = 9
+
+    print(delta)
 
     # TODO: Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
-    naPasDeSolution =
+    naPasDeSolution = -375
+
+    a1 = 100
+    b1 = 5
+    c1 = 1
 
     if naPasDeSolution:
         # ces ligne de code seront executé si il y'a aucune racine
         # TODO: afficher sur l'écran "Aucune racine"
-
+        print("Aucune racine")
         # ne pas modifier
         return None
 
     # TODO: Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
     aUneSeuleSolution =
+
+    a2 =
+    b2 =
+    c2 =
 
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
