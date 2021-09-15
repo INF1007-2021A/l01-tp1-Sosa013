@@ -3,22 +3,11 @@ import math
 
 def resoudreEquation(a, b, c):
     # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
-    a = 2
-    b = 9
-    c = 9
 
     delta = ((b**2) - (4*a*c))
 
-    delta = 9
-
-    print(delta)
-
     # TODO: Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
-    naPasDeSolution = -375
-
-    a1 = 100
-    b1 = 5
-    c1 = 1
+    naPasDeSolution = delta < 0
 
     if naPasDeSolution:
         # ces ligne de code seront executé si il y'a aucune racine
@@ -28,32 +17,28 @@ def resoudreEquation(a, b, c):
         return None
 
     # TODO: Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
-    aUneSeuleSolution =
-
-    a2 =
-    b2 =
-    c2 =
+    aUneSeuleSolution = (delta == 0)
 
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
         # TODO: afficher sur l'écran "Une seule racine"
 
         # TODO: assigner a la variable x1 la valeur de la racine
-        x1 =
+        x1 = 0
         # ne pas modifier
         return x1
 
     # TODO: Déterminer la condition (bool) qui correspond à deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
-    aDeuxSolutions =
+    aDeuxSolutions = (delta > 0)
 
     if aDeuxSolutions:
         # TODO: afficher sur l'écran "Deux racines"
 
         # TODO: calculer la prmiere racine, assigner la a "x1"
-        x1 =
+        x1 = ((b**2) - (4*a*c))**1/2
 
         # TODO: calculer la deuxieme racine, assigner la a "x2"
-        x2 =
+        x2 = -((b**2) - (4*a*c))**1/2
 
         # ne pas modifier cette ligne
         return x1, x2
