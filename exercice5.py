@@ -5,7 +5,8 @@ def pointDeRencontre(v1, v2, distance):
 
 
     # TODO calculer la position de rencontre, assignez la valeur à la variable "positionRencontre"
-    positionRencontre = -(v1*xi2)+(v2*xi1)/(v2-v1)
+    temps = xi2/(v2+v1)
+    positionRencontre = v1 * temps
     return positionRencontre
 
 if __name__ == '__main__':
