@@ -35,10 +35,10 @@ def resoudreEquation(a, b, c):
         # TODO: afficher sur l'écran "Deux racines"
         print("Deux racines")
         # TODO: calculer la prmiere racine, assigner la a "x1"
-        x1 = ((b**2) - (4*a*c))**1/2
+        x1 = ((b**2) - (4*a*c))**(1/2)
 
         # TODO: calculer la deuxieme racine, assigner la a "x2"
-        x2 = -((b**2) - (4*a*c))**1/2
+        x2 = -((b**2) - (4*a*c))**(1/2)
 
         # ne pas modifier cette ligne
         return x1, x2
