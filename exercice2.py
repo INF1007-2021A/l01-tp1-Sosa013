@@ -22,9 +22,9 @@ def resoudreEquation(a, b, c):
     if aUneSeuleSolution:
         # ces ligne de code seront executé si il y'a une seule racine
         # TODO: afficher sur l'écran "Une seule racine"
-
+        print("Une seule racine")
         # TODO: assigner a la variable x1 la valeur de la racine
-        x1 = 0
+        x1 = -b/(2*a)
         # ne pas modifier
         return x1
 
@@ -33,7 +33,7 @@ def resoudreEquation(a, b, c):
 
     if aDeuxSolutions:
         # TODO: afficher sur l'écran "Deux racines"
-
+        print("Deux racines")
         # TODO: calculer la prmiere racine, assigner la a "x1"
         x1 = ((b**2) - (4*a*c))**1/2
 
