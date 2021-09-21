@@ -7,7 +7,7 @@ def calculerPosition(positionInitiale, vitesseInitiale, duree, vitesseFinale):
     vi = vitesseInitiale#en_kilomètres_par_heure
     t = duree#en_secondes
     vf = vitesseFinale#en_kilomètres_par_heure
-    # a = acceleration#enmètresparsecondecarrée
+    # a = acceleration#en_mètres_par_seconde_carrée
 
     a = ((vf/3.6) - (vi/3.6))/(t)
 
